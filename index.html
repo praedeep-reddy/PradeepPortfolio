@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/dee5339525.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <div class="logo">
+                        <h1><span>P</span>radeep<span>.</span></h1>
+                    </div>
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">My Work</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Full Stack Developer</p>
+                    <h1>Hi, I'm <span>Pradeep</span> <br> Reddy from India</h1>
+                </div>
+            </div>
+        </div>
+
+    <!-- -------about-------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/computer-programmer-8511924 - Copy.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="sub-content">I aim to secure a demanding position as an IT professional, leveraging my technical expertise, enthusiasm, and
+                        innovative thinking to produce exceptional work that surpasses expectations. I also seek an opportunity to
+                        continually learn and develop within a dynamic team setting.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education </p>
+                        <p class="tab-links " onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul class="sub-content">
+                            <li><span>Web Design</span><br>Using HTML <br> CSS <br> JavaScript <br> React </li>
+                            <li><span>Programming</span><br>In Java <br> JavaScript</li>
+                            <li><span>Tools</span><br>SQL <br> PostgreSQL <br> Git/GitHub</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul class="sub-content">
+                            <li><span>2024</span><br>BTech from AITS Tirupati <br> Score: 75%</li>
+                            <li><span>2021</span><br>Diploma from GMR polytecnic Srisailam <br> Score: 83%</li>
+                            <li><span>2018</span><br>Secondary Schooling <br> Score: 87%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- ----------Services--------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Devlopment</h2>
+                    <p class="sub-content">Web development uses HTML for structure, CSS for styling, and JavaScript for interactivity to build websites and web applications.</p>
+                    <a href="#">learn more</a>
+                </div>
+            
+            <div >
+                <i class="fab fa-app-store"></i>
+                <h2>App Development</h2>
+                <p class="sub-content">App development with Java and React involves using Java for back-end server-side functionality and React for front-end web interfaces to create dynamic, full-stack applications.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div >
+                <i class="fa-solid fa-database"></i>
+                <h2>DataBase Adminstration</h2>
+                <p class="sub-content">Database administration with SQL and PostgreSQL involves managing, optimizing, and securing data storage using SQL queries and PostgreSQL features to ensure efficient data access and integrity.</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+
+<!-- ---------portfolio--------- -->
+
+    <div id="Portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+            <div class="work">
+                <img src="images/750x750bb.jpeg">
+                <div class="layer">
+                    <h3>Flash Notes</h3>
+                    <p class="sub-content">Created a note-taking app with React, JavaScript, CSS,
+                        and HTML. Integrated functionalities like note
+                        creation, editing, and categorization to improve user
+                        interaction.
+                        </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Portfolio</h3>
+                    <p class="sub-content">A personal blog website that is fully responsive, built
+                        using HTML, CSS, and JavaScript, ensuring
+                        compatibility with all devices for showcase my skills.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="">
+                <img src="">
+                <div class="">
+                    <h3></h3>
+                    <p class=""></p>
+                    <a href=""><i class=""></i></a>
+                </div>
+            </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- --------contact-------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p class="sub-content"><i class="fas fa-paper-plane"></i> sprpradeep306@gmail.com</p>
+                    <p class="sub-content" ><i class="fas fa-phone-square-alt"></i> +91 6302543305</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/praedeep_reddy/?hl=en"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/s-v-pradeep-b3b871175"><i class="fab fa-linkedin"></i></a>
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-twitter-square"></i></a>
+                    </div>
+                    <a href="/Portfolio Website/images/Resume-Pradeep.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <form class="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+            <div class="copyright">
+                <p class="sub-content">Copyright © 2024. Coded by Pradeep</p>
+            </div>
+        </div>
+    </div>
+
+
+
+     <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function  opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+
+     </script>
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzQmJYNDXDIKkDXqm7FW6EnKL6bGfQK1CT1PQjkBTps-fUofn-PPHdA7-Bmm4jteD1aRg/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</html>
